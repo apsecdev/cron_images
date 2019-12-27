@@ -1,5 +1,5 @@
 ﻿#Start a Transcript for debugging purposes if the script gives issues
-Start-Transcript -Path "c:\tasks\ebay\transcript.txt"
+Start-Transcript -Path "c:\YOURPATH\transcript.txt"
 #Get current image info
 $live_bg = Invoke-WebRequest -UseBasicParsing -Uri "http://YOUR_URL_HERE/bg_images/bg.jpg" 
 $live_bg = $live_bg.headers.'content-length'
