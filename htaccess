@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteRule ^ebay_background\.jpg$ http://%{HTTP_HOST}/images/rolling_background/ebay_background4.jpg [L]
+
