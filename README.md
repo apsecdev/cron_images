@@ -19,10 +19,10 @@ A Windows PC that is on according to your given schedule
 
 * Edit all files to reflect your paths and URLs.  
 * Find these lines in bg_cron.xml and edit to fit your setup:
--   <Author>\*\*\*USERNAME\*\*\*</Author>    - Your windows Username
--   <URI>\*\*\*SCHEDULED_TASK_LOCATION\*\*\*</URI>  - You can likely use "/" minus the quotes
--   <UserId>\*\*\*USERID\*\*\*</UserId>    - Enter the SID of the Windows account this will be running from
--   <Arguments>-NoProfile -Executionpolicy bypass -file "\*\*\*PATH\*\*\*\\bg_cron.ps1"</Arguments>    - Enter the Local Path to bg_cron.ps1
+-   \<Author\>\*\*\*USERNAME\*\*\*\</Author\>    - Your windows Username
+-   \<URI\>\*\*\*SCHEDULED_TASK_LOCATION\*\*\*\</URI\>  - You can likely use "/" minus the quotes
+-   \<UserId\>\*\*\*USERID\*\*\*\</UserId\>    - Enter the SID of the Windows account this will be running from
+-   \<Arguments\>-NoProfile -Executionpolicy bypass -file "\*\*\*PATH\*\*\*\\bg_cron.ps1"\</Arguments\>    - Enter the Local Path to bg_cron.ps1
 * Import the Task into Windows Task Scheduler
 * Once Imported, change the timing to your needs (current setting is 5 minutes)
 * Upload htaccess (be sure to rename to .htaccess) and cron.php to webhost
